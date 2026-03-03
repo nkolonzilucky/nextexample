@@ -24,3 +24,18 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#button {
+  display: flex;
+  height: 12px;
+  width: '100%';
+  justify-items: center;
+  justify-content: center;
+  gap: 2;
+  border-radius: calc(infinity * 1px);
+  background-color: var(--background);
+  padding-left: 5px;
+  padding-right: 5px;
+  color: var(--foreground);
+
+}
